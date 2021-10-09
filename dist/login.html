@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<link rel="icon" type="image/x-icon" href="https://www.cathay-ins.com.tw/CathayCINS/web/img/common/favicon.ico" />
+<link rel="shortcut icon" href="https://www.cathay-ins.com.tw/CathayCINS/web/img/common/favicon.ico" />
+<meta name="robots" content="noindex" />
+<link rel="stylesheet" href="CathayCINS/Web/css/cathay/header/style.css"/>
+<link rel="stylesheet" href="CathayCINS/Web/css/cathay/footer/style.css"/>
+<link rel="stylesheet" href="CathayCINS/Web/css/cathay/cookies/style.css"/>
+<link rel="stylesheet" href="CathayCINS/Web/css/cathay/modal/style.css?v=20200726"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/login/style.css"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/platform/style.css"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/login/event.css"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/login/main.css"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/login/services.css"/>
+    <link rel="stylesheet" href="CathayCINS/Web/css/cathay/datepicker/style.css"/>
+
+</head>
+
+<body>
+    <header class="cli-wrap cli-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-top-menu">
+                <div class="container">
+                    <!-- <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button> -->
+                    <a href="home.html" title="個人保險" class="navbar-brand" id="lnk_CompanyImageLink_個人保險">
+                        國泰產險
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 從這開始 -->
+        <div class="platform" style="background-image: url('img/upload/login/bg_desktop.png');">
+            <div class="container">
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-12 col-lg event d-none d-lg-flex">
+                        <div class="event__wrap">
+                        <div id="carouselBanner" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <a href="" class="event__item carousel-item active">
+                                    <figure class="event__item-fig">
+                                        <picture>
+                                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/496x350?text=IMG1" />
+                                            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/496x350?text=IMG1" />
+                                            <img src="https://via.placeholder.com/496x350?text=IMG1" class="event__item-img">
+                                        </picture>
+                                    </figure>
+                                </a>
+                                <a href="" class="event__item carousel-item">
+                                    <figure class="event__item-fig">
+                                        <picture>
+                                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/496x350?text=IMG2" />
+                                            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/496x350?text=IMG2" />
+                                            <img src="https://via.placeholder.com/496x350?text=IMG2" class="event__item-img">
+                                        </picture>
+                                    </figure>
+                                </a>
+                                <a href="" class="event__item carousel-item">
+                                    <figure class="event__item-fig">
+                                        <picture>
+                                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/496x350?text=IMG3" />
+                                            <source media="(min-width: 768px)" srcset="https://via.placeholder.com/496x350?text=IMG3" />
+                                            <img src="https://via.placeholder.com/496x350?text=IMG3" class="event__item-img">
+                                        </picture>
+                                    </figure>
+                                </a>
+                            </div>
+                            <nav class="event__nav carousel-indicators nav nav-justified">
+                                <a href="" data-target="#carouselBanner" data-slide-to="0" class="nav-item nav-link active">
+                                    <span class="w-100 align-self-center">新會員歡迎禮抽百元超商禮券</span>
+                                </a>
+                                <a href="" data-target="#carouselBanner" data-slide-to="1" class="nav-item nav-link">
+                                    <span class="w-100 align-self-center">獨享KKday折扣碼！</span>
+                                </a>
+                                <a href="" data-target="#carouselBanner" data-slide-to="2" class="nav-item nav-link">
+                                    <span class="w-100 align-self-center">一二三四五六七八九十一二三四五六七八</span>
+                                </a>
+                            </nav>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg col-xl order-first order-lg-last login">
+                        <div class="login__wrap ml-auto">
+                        <div class="login__tab nav nav-tabs nav-justified">
+                            <a href=".login__tabcontent-password" class="login__tab-item nav-item nav-link active" data-toggle="tab">
+                                <span>密碼登入</span>
+                            </a>
+                            <a href=".login__tabcontent-mobile" class="login__tab-item nav-item nav-link" data-toggle="tab">
+                                <span>手機驗證登入</span>
+                            </a>
+                        </div>
+                        <div class="login__tabcontent tab-content py-3">
+                            <!-- 密碼登入 -->
+                            <div class="tab-pane fade show active login__tabcontent-password">
+                                <form action="" class="login__form-password">
+                                    <div class="form-group mb-2">
+                                        <label class="font-weight-bold">
+                                            帳號
+                                        </label>
+                                        <input type="text" placeholder="請輸入身分證字號或居留證號碼" class="form-control rounded" pattern="[A-Za-z0-9]">
+                                        <div class="register__text__sm invalid-feedback">
+                                            錯誤訊息
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label class="d-flex justify-content-between align-items-end">
+                                            <span class="font-weight-bold">密碼</span>
+                                            <a class="register__text__sm" href="#">忘記密碼</a>
+                                        </label>
+                                        <div class="position-relative form__password">
+                                            <input type="password" autocomplete="off"  placeholder="請輸入 8-12 位英數混合密碼" class="form-control rounded">
+                                            <i class="icon__eye cursor-pointer position-absolute register__input_icon_position" role="togglePassword"></i>
+                                            <div class="register__text__sm invalid-feedback">
+                                                錯誤訊息
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="d-flex justify-content-between align-items-end">
+                                                <span class="font-weight-bold">驗證碼</span>
+                                        </label>
+                                        <div class="position-relative form__password form-row align-items-center">
+                                            <div class="col-8">
+                                                <input type="text" autocomplete="off"  placeholder="請輸入 8-12 位英數混合密碼" class="form-control rounded">
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="img/upload/login/verify.png" alt="">
+                                            </div>
+                                            <div class="col-1 text-center px-0">
+                                                <a href="" class="opacity">
+                                                    <img src="img/upload/register/refresh.svg" width="32" height="32" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="register__text__sm invalid-feedback">
+                                                錯誤訊息
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <a class="btn btn-block btn-primary" href="#"><span>登入</span></a>
+                                    </div>
+                                    <div class="text-center mb-3">
+                                        還不是會員，<a class="font-weight-bold" href="#">快速註冊</a>
+                                    </div>
+                                    <div class="form-group d-flex align-items-center mb-3">
+                                        <div class="flex-fill flex-shrink-1">
+                                            <hr class="m-0 border-top border-bottom-0 border-light-gray">
+                                        </div>
+                                        <div class="text-nowrap mx-2 text-center register__text__sm">
+                                            用以下方式驗證登入國泰產險
+                                            <i class="ml-1"><img src="img/upload/login/icon-info.svg" width="20" height="20" class=""></i>
+                                        </div>
+                                        <div class="flex-fill flex-shrink-1">
+                                            <hr class="m-0 border-top border-bottom-0 border-light-gray">
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <a class="btn btn-block btn-orange" href="#">
+                                            <i class="mr-1">
+                                                <img src="img/upload/login/icon-mbsso.svg" alt="">
+                                            </i>
+                                            <span>國泰世華網銀帳號登入</span>
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- //手機驗證登入 -->
+                            <div class="tab-pane fade login__tabcontent-mobile">
+                                <form action="" class="login__form-mobile">
+                                    <div class="form-group mb-2 text-center">
+                                        <i class="d-block mb-3">
+                                            <img src="img/upload/login/icon-phone.svg" alt="">
+                                        </i>
+                                        <span class="lead">
+                                            請輸入以下資料並透過簡訊驗證碼登入
+                                        </span>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label class="font-weight-bold">
+                                            帳號
+                                        </label>
+                                        <input type="text" placeholder="請輸入身分證字號或居留證號碼" class="form-control rounded" pattern="[A-Za-z0-9]">
+                                        <div class="register__text__sm invalid-feedback">
+                                            錯誤訊息
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="d-flex justify-content-between align-items-end">
+                                            <span class="font-weight-bold">生日</span>
+                                        </label>
+                                        <div class="position-relative" data-toggle="collapse" data-target="#datepicker">
+                                            <input type="tel" placeholder="格式西元年月日：YYYYMMDD" class="form-control rounded"  pattern="[0-9]" id="birthday" name="birthday" maxlength="8">
+                                            <img src="img/upload/login/icon-calendar.svg" data-toggle="collapse" role="dob-datepicker-toggler" data-target="#dob-datepicker" alt="icon-calendar" class="position-absolute register__input_icon_position cursor-pointer">
+
+                                            <div class="collapse" role="dob-datepicker" id="dob-datepicker"></div>
+                                            <div class="register__text__sm invalid-feedback">
+                                                錯誤訊息
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a class="btn btn-block btn-primary" href="#"><span>發送驗證碼</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-lg-none d-block my-4">
+                <div class="services__title text-center mb-3">加入會員享服務與好康</div>
+                <a href="" class="event__item d-block text-center my-2">
+                    <figure class="event__item-fig">
+                        <img class="img-fluid" src="img/upload/login/mobile_banner_sample.png" alt="">
+                    </figure>
+                </a>
+                <a href="" class="event__item d-block text-center my-2">
+                    <figure class="event__item-fig">
+                        <img class="img-fluid" src="img/upload/login/mobile_banner_sample.png" alt="">
+                    </figure>
+                </a>
+                <a href="" class="event__item d-block text-center my-2">
+                    <figure class="event__item-fig">
+                        <img class="img-fluid" src="img/upload/login/mobile_banner_sample.png" alt="">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="services">
+                <div class="container">
+                    <div class=" d-none d-lg-block">
+                        <div class="services__title text-center mb-4">加入會員享服務與好康</div>
+                    </div>
+                    <div class="services__wrap">
+                        <div class="row justify-content-end">
+                            <div class="col-12 col-md-8">
+                                <div class="row">
+                                    <div class="col-6 col-md-3">
+                                        <a class="services__item" href="#">
+                                            <img src="img/upload/login/icon-service.svg" alt="" class="services__item-img">
+                                            <div class="services__item-title text-dark">保單總覽</div>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-md-3 pt-sm-0 pt-md-4 pt-lg-0">
+                                        <a class="services__item" href="#">
+                                            <img src="img/upload/login/icon-service.svg" alt="" class="services__item-img">
+                                            <div class="services__item-title text-dark">保單總覽</div>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <a class="services__item" href="#">
+                                            <img src="img/upload/login/icon-service.svg" alt="" class="services__item-img">
+                                            <div class="services__item-title text-dark">保單總覽</div>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-md-3 pt-sm-0 pt-md-4 pt-lg-0">
+                                        <a class="services__item" href="#">
+                                            <img src="img/upload/login/icon-service.svg" alt="" class="services__item-img">
+                                            <div class="services__item-title text-dark">保單總覽</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 到這結束-->
+
+        <div class="cathay-comp cm-modal fade" id="have-been-a-member" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <p>
+                    此帳號已註冊會員，請前往登入會員。<br/>若忘記密碼請選擇［忘記密碼］或以［手機驗證］登入，或撥打客服專線：0800-212-880。
+                </p>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white order-2 order-md-1 my-2 my-md-0 mx-md-3 w-100p w-md-auto">忘記密碼</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3 w-100p w-md-auto">登入會員</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="cathay-comp cm-modal fade" id="unsupported-nationality" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    暫時不提供註冊的國籍
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="row">
+                    <div class="col-10 col-md-8 mx-auto">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="mb-0">
+                                    <li>SS 南蘇丹</li>
+                                    <li>CD 剛果民主共和國</li>
+                                    <li>SD 蘇丹</li>
+                                    <li>CF 中非共和國</li>
+                                    <li>KP 北韓</li>
+                                    <li>LB 黎巴嫩</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="mb-0">
+                                    <li>SY 敘利亞</li>
+                                    <li>IQ 伊拉克</li>
+                                    <li>SO 索馬利亞</li>
+                                    <li>YE 葉門</li>
+                                    <li>LY 利比亞</li>
+                                    <li>ML 馬利</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto my-2 my-md-0 mx-md-3 w-100p w-md-auto " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="cathay-comp cm-modal fade" id="confirm-register-info" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    資料確認
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="row">
+                    <div class="col-9 mx-auto">
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">帳號</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">A193768561</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">姓名</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">一二三</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">手機號碼</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">0988274411</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">通訊地址</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">臺北市大安區復興南路二段157號</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">Email</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">euue@cc.ccccccos</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">生日</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">2001-03-15</span>
+                            </div>
+                        </div>
+                        <div class="row border-bottom py-3">
+                            <div class="col-3 pl-0">
+                                <span class="font-weight-bold">推薦碼</span>
+                            </div>
+                            <div class="col-9 pr-0">
+                                <span class="font-weight-bold color-green">AFDFSDFSFDS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white order-2 order-md-1 my-2 my-md-0 mx-md-3 w-100p w-md-auto">回上一步修改</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3  w-100p w-md-auto">確認正確</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="cathay-comp cm-modal fade" id="campaign-code" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    推薦/活動碼
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <p>推薦/活動碼非必填，各代碼說明如下:<br/></p>
+                <ul>
+                    <li><span class="color-green"><b>會員推薦碼:</b></span><br/>
+                        <p>國泰產險為每位網路會員準備了推薦碼，註冊別忘請好友將推薦碼分享給你，輸入後
+                            就可參加會員活動喔。 推薦碼可在會員中心查詢，快請好友查詢分享吧!</p>
+                        </li>
+
+                    <li><span class="color-green"><b>專案活動碼:</b></span><br/>
+                        <p>國泰產險與合作夥伴的活動專案代碼，輸入指定活動碼就可以參加專屬活動囉。</p>
+                        </li>
+                </ul>
+                <p>*前述代碼僅可擇一輸入，投保完成後恕無法補登資料。</p>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto my-2 my-md-0 mx-md-3 w-100p w-md-auto " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="cathay-comp cm-modal fade" id="join-line-channel" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    加入國泰產險LINE官方帳號
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>查保單、理賠、繳費服務樣樣通</p>
+                    <p>保險到期、好康活動即時通知</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  order-2 order-md-1 my-2 my-md-0 mx-md-3 w-100p w-md-auto" data-dismiss="modal">關閉</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3 w-100p w-md-auto">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="cathay-comp cm-modal fade" id="access-digi-bank-info" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>是否帶入網銀資料？</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  order-md-1 order-2 my-2 my-md-0 mx-md-3 w-100p w-md-240" data-dismiss="modal">取消，下次再進行授權</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-md-2 order-1 my-2 my-md-0 mx-md-3 w-100p w-md-240">是</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cathay-comp cm-modal fade" id="sms-error" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>驗證碼錯誤，請重新輸入</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  my-2 my-md-0 mx-md-3 w-100p w-md-auto " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    data-backdrop="static" 是不讓使用者按背後的黑幕 關掉
+ -->
+<div class="cathay-comp cm-modal fade" id="sms-failure" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>驗證碼三次失敗，請點擊重新發送驗證碼！</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white order-md-1 order-2 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">回上一頁修改資料</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-md-2 order-1 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">重新發送驗證碼</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="cathay-comp cm-modal fade" id="sms-failure-line" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>驗證碼三次失敗，請點擊重新發送驗證碼！</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">重新發送驗證碼</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="cathay-comp cm-modal fade" id="asiamiles-no" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    亞洲萬里通活動登錄
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>tbd</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto  my-2 my-md-0 mx-md-3 " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cathay-comp cm-modal fade" id="fast-register" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    快速註冊
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>⽬前此服務僅限於臨櫃申辦之網路銀⾏帳號，若您使⽤ATM申請或信⽤卡⼾線上申請之網路銀⾏帳號，則無法使⽤本服務。</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  w-100p w-md-auto my-2 my-md-0 mx-md-3 " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    </main>
+
+    <!-- Mobile Footer Start -->
+<footer class="d-lg-none">
+
+
+    <div class="list">
+        <div class="item accordion">
+            <div role="button" class="accordion-header" data-target="footer-menu-1">
+          <div class="content">免付費服務專線<span> <a href="tel:0800-212-880" target="_blank">0800-212-880</a></span></div>
+          <div class="action"><i class="icon-chevron-down"></i></div>
+        </div>
+        <div class="accordion-body" style="display: none;" data-id="footer-menu-1">
+          <p>
+            <small class="text-gray">商品、投保與理賠等諮詢服務</small><br />
+            <span>每日08:30 ~ 21:00 (本公司專人服務）</span>
+          </p>
+          <p>
+            <small class="text-gray">車禍事故諮詢與現場服務</small><br />
+            <span>每日21:00 ~ 翌日08:30（委外專人服務）</span>
+          </p>
+        </div>
+        </div>
+
+                <div class="item accordion">
+                    <div role="button" class="accordion-header" data-target="footer-menu-2">
+                        <div class="content">
+                            海外急難救助服務
+                        </div>
+                        <div class="action"><i class="icon-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body" style="display: none;" data-id="footer-menu-2">
+                        <a id="layout_0_footercontent_0_Rpt_MobileMiddleContactUsBrick_Link_MobileMiddleContactUs_0" href="tel:+886227551258" target="_blank">+886-2-2755-1258</a>
+                    </div>
+                </div>
+
+                <div class="item accordion">
+                    <div role="button" class="accordion-header" data-target="footer-menu-2">
+                        <div class="content">
+                            24小時道路救援服務專線
+                        </div>
+                        <div class="action"><i class="icon-chevron-down"></i></div>
+                    </div>
+                    <div class="accordion-body" style="display: none;" data-id="footer-menu-2">
+                        <a id="layout_0_footercontent_0_Rpt_MobileMiddleContactUsBrick_Link_MobileMiddleContactUs_1" href="tel:+886800020345" target="_blank">0800-020-345</a>
+                    </div>
+                </div>
+
+
+                <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0600/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                    <div class="content">
+                        服務據點
+                    </div>
+                </a>
+
+                <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0700/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                    <div class="content">
+                        寫信諮詢
+                    </div>
+                </a>
+
+                <a href="https://lihi.tv/3OZo9/INSOW_Service" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                    <div class="content">
+                        用LINE理賠/查詢
+                    </div>
+                </a>
+
+        <div class="item accordion">
+            <div role="button" class="accordion-header" data-target="footer-menu-5">
+                <div class="content">
+                    國泰集團
+                </div>
+                <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="accordion-body" style="display: none;" data-id="footer-menu-5">
+
+                        <a href="https://www.cathayholdings.com/holdings/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰金控
+                        </a>
+
+                        <a href="https://www.cathaylife.com.tw/cathaylife/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰人壽
+                        </a>
+
+                        <a href="https://www.cathaybk.com.tw/cathaybk/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰世華銀行
+                        </a>
+
+                        <a href="https://www.cathaysec.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰綜合證券
+                        </a>
+
+                        <a href="https://www.cathaysite.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰投信
+                        </a>
+
+                        <a href="https://www.cathayconsult.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰投顧
+                        </a>
+
+                        <a href="https://w3.cathaylife.com.tw/eai/ZPWeb/login.jsp" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            國泰產險員工專區
+                        </a>
+
+                        <a href="https://recruit.cathayholdings.com/CathaybkHR/servlet/HttpDispatcher/EZA0_0000/index" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            人才招募
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/english/index.html" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            EN
+                        </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="social-link">
+
+        <a href="https://www.facebook.com/CathayIns/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/50d62f97ac114b67a2003ffb9b191ef2.png?v=1" id="layout_0_footercontent_0_Rpt_MobileCommunityGroupBrick_Img_MobileCommunityGroup_0" height="34" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/50d62f97ac114b67a2003ffb9b191ef2.png?v=1" />
+        </a>
+
+        <a href="https://lihi.tv/3OZo9/INSOW_Footer" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/7946d916cf864866af7faeb7ac07e319.png?v=1" id="layout_0_footercontent_0_Rpt_MobileCommunityGroupBrick_Img_MobileCommunityGroup_1" height="34" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/7946d916cf864866af7faeb7ac07e319.png?v=1" />
+        </a>
+
+    </div>
+
+
+<comp class="c-cookies">
+    <div class="c-cookies-inner">
+        <div class="c-cookies-content">
+            為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的 Cookie，若您不願接受 Cookie 的寫入，<br/>可在瀏覽器功能項中設定隱私權等級為高，即可拒絕 Cookie 的寫入，但可能會導致網站某些功能無法正常執行 。
+        </div>
+    </div>
+</comp>
+
+    <div class="brand-link">
+        <div class="container">
+            <div class="menu">
+
+                        <a href="https://accessibility.cathay-ins.com.tw/INSOAWeb/html/CM/Accessibility/index.html" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            金融友善服務
+                        </a>
+
+                        <a href="https://carrisk.cathay-ins.com.tw/index.asp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            零事故研究所
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=3" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            房屋貸款
+                        </a>
+
+                        <a href="https://www.fsc.gov.tw/ch/index.jsp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            金管會
+                        </a>
+
+                        <a href="https://www.ib.gov.tw/ch/index.jsp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            保險局
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFB5_0700/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            公開訊息
+                        </a>
+
+                        <a href="cathayins/sitemap" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            網站地圖
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=1" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            瀏覽器建議
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=2" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            聲明事項
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/cathayins/-/media/d64e8e42c9d14fd6bc70993e68464b2b.pdf?la=zh-tw&amp;v=1&amp;hash=DDB0556A9FA4C1EA12C275E66BB93A557C15818B" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            直接投保優惠說明
+                        </a>
+
+            </div>
+            <div>
+                網頁編碼 : PFA2_0100
+            </div>
+            <div>
+                &#169; 國泰世紀產物保險股份有限公司
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Mobile Footer End -->
+<!-- Desktop Footer Start -->
+<footer class="d-none d-lg-block">
+    <div class="contact-info container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+
+                    <div class="col-6">
+                        <div class="content">
+                            <h5 class="my-0">免付費服務專線</h5>
+                    <h3>
+                      <a target="_blank" href="tel:+886800-212-880">
+                        0800-212-880
+                      </a>
+                    </h3>
+                    <p class="description">
+                      商品、投保與理賠等諮詢服務<br />
+                      每日08:30 ~ 21:00 (本公司專人服務）
+                    </p>
+                    <p class="description">
+                      車禍事故諮詢與現場服務<br />
+                      每日21:00 ~ 翌日08:30（委外專人服務）
+                    </p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="content">
+
+                                    <div class="item">
+                                        <h5>
+                                            海外急難救助服務
+                                        </h5>
+                                        <a id="layout_0_footercontent_0_Rpt_WebMiddleContactUsBrick_Link_WebMiddleContactUs_0" href="tel:+886227551258" target="_blank">+886-2-2755-1258</a>
+                                    </div>
+
+                                    <div class="item">
+                                        <h5>
+                                            24小時道路救援服務專線
+                                        </h5>
+                                        <a id="layout_0_footercontent_0_Rpt_WebMiddleContactUsBrick_Link_WebMiddleContactUs_1" href="tel:+886800020345" target="_blank">0800-020-345</a>
+                                    </div>
+
+                        </div>
+                    </div>
+                    <!-- <div class="col-12">
+                        <div class="content">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-4 text-right">
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0600/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="btn btn-block btn-gray" target="_blank" id="lnk_footer_Link">
+                            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/ccb4976f79684d868e32d5e2bbe2b60d.png?v=1" id="layout_0_footercontent_0_Rpt_WebRightContactUsBrick_Image_WebRightContactUs_0" height="32" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/7fbc8255057f40b3a78bf63e685d7998.png?v=1" />
+                            <span class="text-green">
+                                服務據點
+                            </span>
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0700/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="btn btn-block btn-gray" target="_blank" id="lnk_footer_Link">
+                            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/c8fee5e8872b456a88f5e7cbaaddbb88.png?v=1" id="layout_0_footercontent_0_Rpt_WebRightContactUsBrick_Image_WebRightContactUs_1" height="32" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/c89e6617eb3742858b0c5f6ffcadd945.png?v=1" />
+                            <span class="text-green">
+                                寫信諮詢
+                            </span>
+                        </a>
+
+                        <a href="https://lihi.tv/3OZo9/INSOW_Service" enclosing-tag="footer" rel="noopener noreferrer" class="btn btn-block btn-gray" target="_blank" id="lnk_footer_Link">
+                            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/038e8acd92814b2189ba0424b30b1a90.png?v=1" id="layout_0_footercontent_0_Rpt_WebRightContactUsBrick_Image_WebRightContactUs_2" height="32" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/bd885a57b0734bceb751e82116213968.png?v=1" />
+                            <span class="text-green">
+                                用LINE理賠/查詢
+                            </span>
+                        </a>
+
+            </div>
+
+        </div>
+
+
+<comp class="c-cookies">
+    <div class="c-cookies-inner">
+        <div class="c-cookies-content">
+            為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的 Cookie，若您不願接受 Cookie 的寫入，<br/>可在瀏覽器功能項中設定隱私權等級為高，即可拒絕 Cookie 的寫入，但可能會導致網站某些功能無法正常執行 。
+        </div>
+    </div>
+</comp>
+    </div>
+    <div class="brand-link">
+        <div class="container">
+            <div class="float-right">
+                網頁編碼 : PFA2_0100
+            </div>
+            <div class="menu dividing">
+                <a href="cathayins/personal" class="logo" id="lnk_HomeLink">
+                    <img src="https://www.cathay-ins.com.tw/cathayins/-/media/f9735900e69c44bca03a6227cc34c0b1.png?v=1" id="layout_0_footercontent_0_HomeImage" width="30" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/233f8d87f87446a59fe1b85dd5f4e21f.png?v=1" />
+                </a>
+
+                        <a href="https://www.cathayholdings.com/holdings/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰金控
+                        </a>
+
+                        <a href="https://www.cathaylife.com.tw/cathaylife/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰人壽
+                        </a>
+
+                        <a href="https://www.cathaybk.com.tw/cathaybk/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰世華銀行
+                        </a>
+
+                        <a href="https://www.cathaysec.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰綜合證券
+                        </a>
+
+                        <a href="https://www.cathaysite.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰投信
+                        </a>
+
+                        <a href="https://www.cathayconsult.com.tw/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            國泰投顧
+                        </a>
+
+                        <a href="https://w3.cathaylife.com.tw/eai/ZPWeb/login.jsp" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            國泰產險員工專區
+                        </a>
+
+                        <a href="https://recruit.cathayholdings.com/CathaybkHR/servlet/HttpDispatcher/EZA0_0000/index" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            人才招募
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/english/index.html" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            EN
+                        </a>
+
+            </div>
+        </div>
+        <hr class="green" />
+        <div class="container">
+            <div class="float-right">
+                &#169; 國泰世紀產物保險股份有限公司
+            </div>
+            <div class="menu paded">
+
+                        <a href="https://www.facebook.com/CathayIns/" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/cca7c1561003469889cfa2b2e23e3a46.png?v=1" id="layout_0_footercontent_0_Rpt_WebCommunityGroupBrick_Img_WebCommunityGroup_0" width="26" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/ed2171a6820149219750a7355989e734.png?v=1" />
+                        </a>
+
+                        <a href="https://lihi.tv/3OZo9/INSOW_Footer" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            <img src="https://www.cathay-ins.com.tw/cathayins/-/media/ea7483fa3981498f97be61ca069ec97b.png?v=1" id="layout_0_footercontent_0_Rpt_WebCommunityGroupBrick_Img_WebCommunityGroup_1" width="26" srcset="https://www.cathay-ins.com.tw/cathayins/-/media/33f5f85937e34531a20b0ddeae5b1123.png?v=1" />
+                        </a>
+
+
+                        <a href="https://accessibility.cathay-ins.com.tw/INSOAWeb/html/CM/Accessibility/index.html" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            金融友善服務
+                        </a>
+
+                        <a href="https://carrisk.cathay-ins.com.tw/index.asp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            零事故研究所
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=3" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            房屋貸款
+                        </a>
+
+                        <a href="https://www.fsc.gov.tw/ch/index.jsp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            金管會
+                        </a>
+
+                        <a href="https://www.ib.gov.tw/ch/index.jsp" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            保險局
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFB5_0700/prompt" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            公開訊息
+                        </a>
+
+                        <a href="cathayins/sitemap" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            網站地圖
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=1" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            瀏覽器建議
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/INSPFWeb/servlet/HttpDispatcher/PFA8_0400/prompt?index=2" enclosing-tag="footer" rel="noopener noreferrer" class="item" target="_blank" id="lnk_footer_Link">
+                            聲明事項
+                        </a>
+
+                        <a href="https://www.cathay-ins.com.tw/cathayins/-/media/d64e8e42c9d14fd6bc70993e68464b2b.pdf?la=zh-tw&amp;v=1&amp;hash=DDB0556A9FA4C1EA12C275E66BB93A557C15818B" enclosing-tag="footer" class="item" id="lnk_footer_Link">
+                            直接投保優惠說明
+                        </a>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Desktop Footer End -->
+        <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js" integrity="sha512-7taFZYSf0eAWyi1UvMzNrBoPVuvLU7KX6h10e4AzyHVnPjzuxeGWbXYX+ED9zXVVq+r9Xox5WqvABACBSCevmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/libs/jquery-ui.js"></script>
+    <script src="https://www.cathay-ins.com.tw/INSOCWeb/Content/js/vendor/jqueryui-datepicker/datepicker-zh-TW.js"></script>
+    <script src="CathayCINS/Web/js/libs/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="CathayCINS/Web/js/libs/bootstrap/bootstrap.modal.js?r=1231"></script>
+    <script src="CathayCINS/Web/js/libs/bootstrap/util.js"></script>
+    <script src="CathayCINS/Web/js/libs/bootstrap/collapse.js"></script>
+
+
+
+    <!-- headerfooter component plugin-->
+    <script src="CathayCINS/Web/js/libs/jquery.event.move.js"></script>
+    <script type="text/javascript" src="CathayCINS/Web/js/libs/cathay/headerfooter.js"></script>
+    <!-- headerfooter component plugin end -->
+
+    <script>
+        function togglePassword(){
+            var elm = $(this).parents(".form-group").find('input');
+            $(this).toggleClass("icon__eye--active");
+            if(elm.attr("type") == "text"){
+                elm.attr("type","password");
+            }else{
+                elm.attr("type","text");
+            }
+        }
+
+        function validDob(value){
+			if(value.length!=10){
+				return false;
+			}
+
+			var dob = new Date(value).getTime();
+			if(dob == "Invalid Date"){
+				return false;
+			}
+
+            var symbol = "-"
+            if(value.indexOf(symbol)==-1){
+                symbol = "/"
+            }
+            if(value.indexOf(symbol)==-1){
+                return false;
+            }
+
+			var d = value.split(symbol)
+			var date = new Date();
+			var year = d[0];
+			var month = d[1];
+			var day = d[2];
+			date.setFullYear(year, month - 1, day);
+
+			var format_year = date.getFullYear();
+			var format_month = date.getMonth()+1;
+			if(format_month<10){
+				format_month = "0"+format_month;
+			}
+			var format_date = date.getDate();
+			if(format_date<10){
+				format_date = "0"+format_date;
+			}
+			if (
+				format_year == year &&
+				format_month == month &&
+				format_date == day
+			 ){
+				return true;
+			 }
+			return false;
+        }
+        function numberFormat(number, width) {
+            return new Array(+width + 1 - (number + '').length).join('0') + number;
+        }
+
+        $(function(){
+            console.log($('[role="agreement"] input[type="checkbox"]').length);
+            $('[role="agreement"]  input[type="checkbox"]').bind("change",function(){
+                $(this).prop("checked",true)
+                if($(this).prop("checked")){
+                    // $(this).parents(".custom-control").addClass('event-none');
+                }
+            })
+        })
+
+        $(function(){
+            objectFitImages();
+
+            $(document).on("click.togglePassword",'[role="togglePassword"]',togglePassword);
+
+            //datepicker 生日
+			// $('#datepicker').attr('type', 'text').attr('readonly', false).datepicker({
+
+
+            let dob_elm =  $('[role="dob-datepicker"]');
+            dob_elm.css("position","absolute");
+            dob_elm.css("top",45);
+            dob_elm.css("right",0);
+            dob_elm.css("z-index",100);
+            dob_elm.datepicker({
+				changeMonth: true,
+				changeYear: true,
+				dateFormat: "yymmdd",
+				showOptions: { direction: "down" },
+				defaultDate:"-30y m w",
+				maxDate:"-20y m w",
+				yearRange:"-100:-20y",
+                onSelect: function(dateText, inst) {
+                    $("#birthday").val(dateText);
+                    $('[role="dob-datepicker"]').collapse('hide')
+                }
+			});
+
+            $(document).on("click.body", 'body', function(event){
+                // console.log($(event.target).closest('[role="dob-datepicker"]').length);
+                if (!$(event.target).closest('[role="dob-datepicker"]').length) {
+                $('[role="dob-datepicker"]').collapse('hide')
+                }
+            });
+
+            $(document).on("click.dobCaculator", '[role="tw-dob-btn"]', function(){
+                $("#dob-calculator").modal("show");
+            });
+
+            $(document).on("click.dobCaculator", '[role="dob-submit"]', function(){
+                var val = $("#twdob").val();
+                var year = parseInt(val.substr(0,3));
+                var month = numberFormat(parseInt(val.substr(3,2)),2);
+                var date = numberFormat(parseInt(val.substr(5,2)),2);
+                var dob = (year+1911)+"/"+month+"/"+date;
+
+                if(validDob(dob)){
+                    $("#birthday").val(dob.replace(/\//g, ""));
+                    $("#dob-calculator").modal("hide");
+                }else{
+                    alert("AB");
+                }
+            });
+
+        })
+
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+
+
+</body>
+</html>

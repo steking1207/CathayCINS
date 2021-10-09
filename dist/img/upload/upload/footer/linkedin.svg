@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Bold" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#87CB82;}
+	.st1{fill:#F7F7F7;}
+</style>
+<path class="st0" d="M416,512H96c-53.02,0-96-42.98-96-96V96C0,42.98,42.98,0,96,0h320c53.02,0,96,42.98,96,96v320
+	C512,469.02,469.02,512,416,512z"/>
+<path class="st1" d="M394.93,395l0.07-0.02V293.03c0-49.88-10.74-88.3-69.05-88.3c-28.03,0-46.84,15.38-54.52,29.97h-0.8v-25.32
+	h-55.29v185.6h57.58v-91.9c0-24.2,4.59-47.59,34.56-47.59c29.52,0,29.97,27.61,29.97,49.15V395H394.93z"/>
+<g>
+	<path class="st1" d="M121.59,209.4h57.63V395h-57.63V209.4z"/>
+	<path class="st1" d="M150.38,117c-18.42,0-33.38,14.96-33.38,33.38c0,18.43,14.96,33.69,33.38,33.69s33.38-15.26,33.38-33.69
+		C183.75,131.96,168.79,117,150.38,117z"/>
+</g>
+</svg>
