@@ -94,17 +94,16 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg col-xl order-first order-lg-last login">
-                        <div class="login__wrap mx-auto ml-lg-auto">
+                        <div class="login__wrap ml-lg-auto">
                         <div class="login__tab nav nav-tabs nav-justified">
-                            <a href=".login__tabcontent-password" class="login__tab-item nav-item nav-link px-3 px-lg-6 active" data-toggle="tab">
+                            <a href=".login__tabcontent-password" class="login__tab-item nav-item nav-link px-3 px-md-8 px-lg-6 active" data-toggle="tab">
                                 <span>密碼登入</span>
                             </a>
-                            <a href=".login__tabcontent-mobile" class="login__tab-item nav-item nav-link px-3 px-lg-6" data-toggle="tab">
+                            <a href=".login__tabcontent-mobile" class="login__tab-item nav-item nav-link px-3 px-md-8 px-lg-6" data-toggle="tab">
                                 <span>手機驗證登入</span>
                             </a>
                         </div>
                         <div class="login__tabcontent tab-content py-3">
-                            <!-- 密碼登入 -->
                             <div class="tab-pane fade show active login__tabcontent-password">
                                 <form action="" class="login__form-password">
                                     <div class="form-group mb-2">
@@ -133,16 +132,16 @@
                                         <label class="d-flex justify-content-between align-items-end">
                                                 <span class="font-weight-bold">驗證碼</span>
                                         </label>
-                                        <div class="position-relative form__password form-row align-items-center">
-                                            <div class="col-8">
-                                                <input type="text" autocomplete="off"  placeholder="請輸入 8-12 位英數混合密碼" class="form-control rounded">
+                                        <div class="position-relative form__verify form-row align-items-center justify-content-between">
+                                            <div class="col-7 col-sm-9 col-md-9 col-lg-7 col-xl-8 form__verify__col--input">
+                                                <input type="text" autocomplete="off"  placeholder="請輸入圖中驗證碼" class="form-control rounded">
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-auto text-center form__verify__col--image">
                                                 <img src="img/upload/login/verify.png" alt="">
                                             </div>
-                                            <div class="col-1 text-center px-0">
-                                                <a href="" class="opacity">
-                                                    <img src="img/upload/register/refresh.svg" width="32" height="32" alt="">
+                                            <div class="col-2 col-sm-1 text-right form__verify__col--btn">
+                                                <a href="#" class="opacity">
+                                                    <img src="img/upload/register/refresh.svg" alt="">
                                                 </a>
                                             </div>
                                             <div class="register__text__sm invalid-feedback">
@@ -155,7 +154,7 @@
                                         <a class="btn btn-block btn-primary" href="#"><span>登入</span></a>
                                     </div>
                                     <div class="text-center mb-3">
-                                        還不是會員，<a class="font-weight-bold" href="#">快速註冊</a>
+                                        還不是會員嗎？<a class="font-weight-bold" href="#">快速註冊</a>
                                     </div>
                                     <div class="form-group d-flex align-items-center mb-3">
                                         <div class="flex-fill flex-shrink-1">
@@ -180,7 +179,6 @@
                                 </form>
                             </div>
 
-                            <!-- //手機驗證登入 -->
                             <div class="tab-pane fade login__tabcontent-mobile">
                                 <form action="" class="login__form-mobile">
                                     <div class="form-group mb-2 text-center">
@@ -244,6 +242,7 @@
                 </a>
             </div>
 
+<!--
             <div class="services">
                 <div class="service__top">
                     <picture>
@@ -292,260 +291,37 @@
                     </div>
                 </div>
             </div>
+-->
         </div>
         <!-- 到這結束-->
 
-        <div class="cathay-comp cm-modal fade" id="have-been-a-member" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    提醒您
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
+<!--尚未註冊會員ok-->
+<div class="cathay-comp cm-modal fade" id="have-been-a-member" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="cm-modal-dialog cm-modal-dialog-centered">
+<div class="cm-modal-content">
+    <div class="cm-modal-header">
+        <h5 class="cm-modal-title">
+            提醒您
+        </h5>
+        <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+    </div>
 
-            <div class="cm-modal-body">
-                <p>
-                    此帳號尚未註冊會員，請重新輸入正確會員帳號，未註冊會員請先前往註冊，才能使用會員服務唷～
-                </p>
-            </div>
+    <div class="cm-modal-body">
+        <p>
+            此帳號尚未註冊會員，請重新輸入正確會員帳號，未註冊會員請先前往註冊，才能使用會員服務唷～
+        </p>
+    </div>
 
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3 w-100p w-md-auto">註冊會員</a>
-                </div>
-            </div>
+    <div class="cm-modal-footer">
+        <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+            <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3 w-100p w-md-auto">註冊會員</a>
         </div>
     </div>
 </div>
-
-
-<div class="cathay-comp cm-modal fade" id="unsupported-nationality" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    暫時不提供註冊的國籍
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="row">
-                    <div class="col-10 col-md-8 mx-auto">
-                        <div class="row">
-                            <div class="col-6">
-                                <ul class="mb-0">
-                                    <li>SS 南蘇丹</li>
-                                    <li>CD 剛果民主共和國</li>
-                                    <li>SD 蘇丹</li>
-                                    <li>CF 中非共和國</li>
-                                    <li>KP 北韓</li>
-                                    <li>LB 黎巴嫩</li>
-                                </ul>
-                            </div>
-                            <div class="col-6">
-                                <ul class="mb-0">
-                                    <li>SY 敘利亞</li>
-                                    <li>IQ 伊拉克</li>
-                                    <li>SO 索馬利亞</li>
-                                    <li>YE 葉門</li>
-                                    <li>LY 利比亞</li>
-                                    <li>ML 馬利</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto my-2 my-md-0 mx-md-3 w-100p w-md-auto " data-dismiss="modal">關閉</a>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 </div>
 
-
-<div class="cathay-comp cm-modal fade" id="confirm-register-info" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    資料確認
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="row">
-                    <div class="col-9 mx-auto">
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">帳號</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">A193768561</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">姓名</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">一二三</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">手機號碼</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">0988274411</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">通訊地址</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">臺北市大安區復興南路二段157號</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">Email</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">euue@cc.ccccccos</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">生日</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">2001-03-15</span>
-                            </div>
-                        </div>
-                        <div class="row border-bottom py-3">
-                            <div class="col-3 pl-0">
-                                <span class="font-weight-bold">推薦碼</span>
-                            </div>
-                            <div class="col-9 pr-0">
-                                <span class="font-weight-bold color-green">AFDFSDFSFDS</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white order-2 order-md-1 my-2 my-md-0 mx-md-3 w-100p w-md-auto">回上一步修改</a>
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3  w-100p w-md-auto">確認正確</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="cathay-comp cm-modal fade" id="campaign-code" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    推薦/活動碼
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <p>推薦/活動碼非必填，各代碼說明如下:<br/></p>
-                <ul>
-                    <li><span class="color-green"><b>會員推薦碼:</b></span><br/>
-                        <p>國泰產險為每位網路會員準備了推薦碼，註冊別忘請好友將推薦碼分享給你，輸入後
-                            就可參加會員活動喔。 推薦碼可在會員中心查詢，快請好友查詢分享吧!</p>
-                        </li>
-
-                    <li><span class="color-green"><b>專案活動碼:</b></span><br/>
-                        <p>國泰產險與合作夥伴的活動專案代碼，輸入指定活動碼就可以參加專屬活動囉。</p>
-                        </li>
-                </ul>
-                <p>*前述代碼僅可擇一輸入，投保完成後恕無法補登資料。</p>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto my-2 my-md-0 mx-md-3 w-100p w-md-auto " data-dismiss="modal">關閉</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="cathay-comp cm-modal fade" id="join-line-channel" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    加入國泰產險LINE官方帳號
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="text-center">
-                    <p>查保單、理賠、繳費服務樣樣通</p>
-                    <p>保險到期、好康活動即時通知</p>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  order-2 order-md-1 my-2 my-md-0 mx-md-3 w-100p w-md-auto" data-dismiss="modal">關閉</a>
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 my-2 my-md-0 mx-md-3 w-100p w-md-auto">了解更多</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="cathay-comp cm-modal fade" id="access-digi-bank-info" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    提醒您
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="text-center">
-                    <p>是否帶入網銀資料？</p>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  order-md-1 order-2 my-2 my-md-0 mx-md-3 w-100p w-md-240" data-dismiss="modal">取消，下次再進行授權</a>
-                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-md-2 order-1 my-2 my-md-0 mx-md-3 w-100p w-md-240">是</a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<!--驗證碼錯誤ok-->
 <div class="cathay-comp cm-modal fade" id="sms-error" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="cm-modal-dialog cm-modal-dialog-centered">
         <div class="cm-modal-content">
@@ -574,6 +350,7 @@
 <!--
     data-backdrop="static" 是不讓使用者按背後的黑幕 關掉
  -->
+<!--驗證碼三次失敗ok-->
 <div class="cathay-comp cm-modal fade" id="sms-failure" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
     <div class="cm-modal-dialog cm-modal-dialog-centered">
         <div class="cm-modal-content">
@@ -599,70 +376,20 @@
     </div>
 </div>
 
-
-<!-- <div class="cathay-comp cm-modal fade" id="sms-failure-line" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    提醒您
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="text-center">
-                    <p>驗證碼三次失敗，請點擊重新發送驗證碼！</p>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-1 order-md-2 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">重新發送驗證碼</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<div class="cathay-comp cm-modal fade" id="asiamiles-no" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="cm-modal-dialog cm-modal-dialog-centered">
-        <div class="cm-modal-content">
-            <div class="cm-modal-header">
-                <h5 class="cm-modal-title">
-                    亞洲萬里通活動登錄
-                </h5>
-                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="cm-modal-body">
-                <div class="text-center">
-                    <p>tbd</p>
-                </div>
-            </div>
-
-            <div class="cm-modal-footer">
-                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
-                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white w-100p w-md-auto  my-2 my-md-0 mx-md-3 " data-dismiss="modal">關閉</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+<!--僅限於臨櫃申辦ok-->
 <div class="cathay-comp cm-modal fade" id="fast-register" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="cm-modal-dialog cm-modal-dialog-centered">
         <div class="cm-modal-content">
             <div class="cm-modal-header">
                 <h5 class="cm-modal-title">
-                    快速註冊
+                    國泰世華網銀帳號登入
                 </h5>
                 <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
             </div>
 
             <div class="cm-modal-body">
                 <div class="text-center">
-                    <p>⽬前此服務僅限於臨櫃申辦之網路銀⾏帳號，若您使⽤ATM申請或信⽤卡⼾線上申請之網路銀⾏帳號，則無法使⽤本服務。</p>
+                    <p>目前此服務僅限於臨櫃申辦之網路銀行帳號，若您使用ATM申請或信用卡戶線上申請之網路銀行帳號，則無法使用本服務。</p>
                 </div>
             </div>
 
@@ -675,7 +402,57 @@
     </div>
 </div>
 
+<!--帳密錯誤ok-->
+<div class="cathay-comp cm-modal fade" id="acc-pw-error" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+                <button type="button" class="cm-modal-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
 
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>您的帳號或密碼有誤，請再次確認並填入正確帳號密碼再登入！</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white  w-100p w-md-auto my-2 my-md-0 mx-md-3 " data-dismiss="modal">關閉</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--帳號已鎖定ok-->
+<div class="cathay-comp cm-modal fade" id="mobile-verify" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+    <div class="cm-modal-dialog cm-modal-dialog-centered">
+        <div class="cm-modal-content">
+            <div class="cm-modal-header">
+                <h5 class="cm-modal-title">
+                    提醒您
+                </h5>
+            </div>
+
+            <div class="cm-modal-body">
+                <div class="text-center">
+                    <p>您的帳號或密碼有誤，已達錯誤次數三次上限，帳號已鎖定，請改用手機驗證登入。</p>
+                </div>
+            </div>
+
+            <div class="cm-modal-footer">
+                <div class="d-flex flex-column flex-md-row w-100p align-items-center justify-content-center">
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--white order-md-1 order-2 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">關閉</a>
+                    <a class="cm-modal-btn cm-modal-btn--s cm-modal-btn--orange order-md-2 order-1 w-100p w-md-auto  my-2 my-md-0 mx-md-3 ">手機驗證登入</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
     </main>
 
@@ -1210,7 +987,7 @@
             interval: 2000
         })
 //        $(window).on('load', function() {
-//            $('#have-been-a-member').modal('show');
+//            $('#mobile-verify').modal('show');
 //        });
     </script>
 
